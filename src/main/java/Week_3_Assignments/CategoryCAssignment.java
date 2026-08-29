@@ -1,4 +1,4 @@
-package control_flow.assigment_problems;
+package Week_3_Assignments;
 
 public class CategoryCAssignment {
 
