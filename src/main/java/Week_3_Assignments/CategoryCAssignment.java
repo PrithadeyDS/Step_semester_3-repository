@@ -1,6 +1,6 @@
-package control_flow.assigment_problems;
+package Week_3_Assignments;
 
-public class Level1Assignments {
+public class CategoryCAssignment {
 
     // P1. Voting Eligibility Checker
     public static void checkVotingEligibility(int age) {
@@ -25,9 +25,8 @@ public class Level1Assignments {
     // P3. Print Numbers 1 to N
     public static void printNumbersUpToN(int n) {
         for (int i = 1; i <= n; i++) {
-            System.out.print(i + " ");
+            System.out.println(i);
         }
-        System.out.println();
     }
 
     // P4. Sum of Natural Numbers Using a While Loop
@@ -57,13 +56,9 @@ public class Level1Assignments {
 
     public static void main(String[] args) {
         checkVotingEligibility(20);
-        checkVotingEligibility(16);
         classifyNumber(15);
-        classifyNumber(-4);
-        classifyNumber(0);
         printNumbersUpToN(5);
         sumOfNaturalNumbers(5);
         printDayName(3);
-        printDayName(9);
     }
 }
